@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logo.png" sizes="16x16">
+	<title> Sign In </title>
+	<script src="https://kit.fontawesome.com/5f0c57f206.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header class="header2">
+		<div class="log-nav">
+			<a href="en_main.html">
+				<img class="logo" src="images/logo.png" alt="logo">
+			</a>
+			<nav class="navigation" id="nav1">
+				<ul class="ul1">
+					<li>
+						<a class="nav-home nav" href="en_main.html"> Home </a>
+					</li>
+					<li>
+						<a class="nav-tours nav" href="en_tours.html"> Tours </a>
+					</li>
+					<li>
+						<a class="nav-hotel nav" href="en_hotel.html"> Hotel </a>
+					</li>
+					<li>
+						<a class="nav-transport nav" href="en_transporti.html"> Transport </a>
+					</li>
+					<li>
+						<a class="nav-travelcompany nav" href="en_travelcompany.html"> Travel Agencies </a>
+					</li>
+					<li>
+						<a class="nav-contact nav" href="en_contact.html"> Contact </a>
+					</li>
+					<li>
+						<a class="nav-signup nav" href="en_signup.html"> Sign Up </a>
+					</li>
+					<li>
+						<a class="nav-signin nav" href="en_signin.html"> Sign In </a>
+					</li>
+					<li>
+						<a href="signin.html">
+							<img class="ge_flag" src="images/ge_flag.png" alt="ge_flag">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+				<i class="fas fa-bars"></i>
+			</a>
+		</div>
+	</header>
+
+
+	<form action="" method="post">
+		<div class="container">
+			<label class="h2-27" for="email"><b>E-mail</b></label>
+			<input class="signin2" type="text" placeholder="Enter E-mail" name="email" id="email" required>
+
+			<label class="h2-27" for="psw"><b>Password</b></label>
+			<input class="signin2" type="password" placeholder="Enter Password" name="psw" required>
+
+			<button class="h2-27 signinbutton" type="submit">Login</button>
+			<label>
+				<input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+		</div>
+
+		<div class="container">
+			<span class="psw ">Do not have an account? <a href="signup.html">Registration</a></span>
+		</div>
+	</form>
+
+	<button onclick="topFunction()" id="topToScroll">
+		<i class="fas fa-chevron-up"></i>
+	</button>
+
+	<script src="js/top.js"></script>
+	<script src="js/burger.js"></script>
+</body>
+</html>

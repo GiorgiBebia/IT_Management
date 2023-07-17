@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logo.png" sizes="16x16">
+	<title> ავტორიზაცია </title>
+	<script src="https://kit.fontawesome.com/5f0c57f206.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header class="header2">
+		<div class="log-nav">
+			<a href="index.html">
+				<img class="logo" src="images/logo.png" alt="logo">
+			</a>
+			<nav class="navigation" id="nav1">
+				<ul class="ul1">
+					<li>
+						<a class="nav-home nav" href="index.html"> მთავარი </a>
+					</li>
+					<li>
+						<a class="nav-tours nav" href="tours.html"> ტურები </a>
+					</li>
+					<li>
+						<a class="nav-hotel nav" href="hotel.html"> სასტუმრო </a>
+					</li>
+					<li>
+						<a class="nav-transport nav" href="transporti.html"> ტრანსპორტი </a>
+					</li>
+					<li>
+						<a class="nav-travelcompany nav" href="travelcompany.html"> ტურისტული კომპანიები </a>
+					</li>
+					<li>
+						<a class="nav-contact nav" href="contact.html"> კონტაქტი </a>
+					</li>
+					<li>
+						<a class="nav-signup nav" href="signup.html"> რეგისტრაცია </a>
+					</li>
+					<li>
+						<a class="nav-signin nav" href="signin.html"> ავტორიზაცია </a>
+					</li>
+					<li>
+						<a href="en_signin.html">
+							<img class="eng_flag" src="images/eng_flag.png" alt="eng_flag">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+				<i class="fas fa-bars"></i>
+			</a>
+		</div>
+	</header>
+
+
+	<form action="" method="post">
+		<div class="container">
+			<label class="h2-27" for="email"><b>ელ. ფოსტა</b></label>
+			<input class="signin2" type="text" placeholder="შეიყვანეთ ელ. ფოსტა" name="email" id="email" required>
+
+			<label class="h2-27" for="psw"><b>პაროლი</b></label>
+			<input class="signin2" type="password" placeholder="შეიყვანეთ პაროლი" name="psw" required>
+
+			<button class="h2-27 signinbutton" type="submit">შესვლა</button>
+			<label>
+				<input type="checkbox" checked="checked" name="remember"> დამიმახსოვრე
+			</label>
+		</div>
+
+		<div class="container">
+			<span class="psw ">არ გაქვთ ანგარიში? <a href="signup.html">რეგისტრაცია</a></span>
+		</div>
+	</form>
+
+	<button onclick="topFunction()" id="topToScroll">
+		<i class="fas fa-chevron-up"></i>
+	</button>
+
+	<script src="js/top.js"></script>
+	<script src="js/burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logo.png" sizes="16x16">
+	<title> Contact </title>
+	<script src="https://kit.fontawesome.com/5f0c57f206.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header class="header2">
+		<div class="log-nav">
+			<a href="en_main.html">
+				<img class="logo" src="images/logo.png" alt="logo">
+			</a>
+			<nav class="navigation" id="nav1">
+				<ul class="ul1">
+					<li>
+						<a class="nav-home nav" href="en_main.html"> Home </a>
+					</li>
+					<li>
+						<a class="nav-tours nav" href="en_tours.html"> Tours </a>
+					</li>
+					<li>
+						<a class="nav-hotel nav" href="en_hotel.html"> Hotel </a>
+					</li>
+					<li>
+						<a class="nav-transport nav" href="en_transporti.html"> Transport </a>
+					</li>
+					<li>
+						<a class="nav-travelcompany nav" href="en_travelcompany.html"> Travel Agencies </a>
+					</li>
+					<li>
+						<a class="nav-contact nav" href="en_contact.html"> Contact </a>
+					</li>
+					<li>
+						<a class="nav-signup nav" href="en_signup.html"> Sign Up </a>
+					</li>
+					<li>
+						<a class="nav-signin nav" href="en_signin.html"> Sign In </a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<img class="ge_flag" src="images/ge_flag.png" alt="ge_flag">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+				<i class="fas fa-bars"></i>
+			</a>
+		</div>
+	</header>
+
+	
+	<form action="" method="post">
+			<div class="name-div">
+				<label class="name" for="name"> <i class="fas fa-user"></i> Name</label>
+				<input class="text-name" type="text" name="name" id="name" required>
+			</div>
+			<div class="lname-div">
+				<label class="lname" for="lname"> <i class="fas fa-user"></i> Last Name</label>
+				<input class="text-name" type="text" name="lname" id="lname" required>
+			</div>
+			<div class="number-div">
+				<label class="number3" for="lname"> <i class="fas fa-phone-alt"></i> Telephone</label>
+				<input class="number2" type="number" name="number" id="number">
+			</div>
+			<div class="email-div">
+				<label class="email" for="name"> <i class="fas fa-envelope-open"></i> E-mail</label>
+				<input class="email2" type="email" name="email" id="email" required>
+			</div>
+			<div class="message-div">
+				<label class="message" for="name"> <i class="fas fa-comment"></i> Text</label>
+				<textarea class="message2" required id="message" cols="40" rows="5"s> </textarea>
+			</div>
+			<div class="send-div">
+			<button class="send" type="submit">SEND</button>
+			</div>
+	</form>
+
+	<button onclick="topFunction()" id="topToScroll">
+		<i class="fas fa-chevron-up"></i>
+	</button>
+
+	<script src="js/top.js"></script>
+	<script src="js/burger.js"></script>
+</body>
+</html>

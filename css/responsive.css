@@ -1,0 +1,191 @@
+@media (max-width: 1452px) {
+	.des1 {
+		display: none;
+	}
+	.section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 759px;
+		height: 560px;
+	}
+	.permits,
+	.fishing {
+		margin-top: 10px;
+	}
+	.hotel-section2 {
+		max-height: 2030px;
+	}
+}
+@media (max-width: 1307px) {
+	li {
+		margin-right: 10px;
+	}
+	.nav-contact {
+    	margin-right: 5px;
+	}
+	.nav {
+		font-size: 15px;
+	}
+}
+@media (max-width: 1095px) {
+	.des2 {
+		display: none;
+	}
+	.destination,
+	.hotels,
+	.travel-company {
+		justify-content: space-around;
+	}
+	.footer-div {
+		flex-direction: column;
+	}
+	.h3-11 {
+		max-width: 611px;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.h1-8 {
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.foot-div {
+		margin-bottom: 10px;
+	}
+	.section2 {
+		max-height: 2900px;
+	}
+	.hotel-section2 {
+		max-height: 3080px;
+	}
+	.tran-sec1-div1{
+		flex-direction: column;
+	}
+	.car-image,
+	.car-info {
+		margin: 0 auto;
+	}
+	/*.transport-section1 {
+		height: 3800px;
+	}*/
+}
+@media (max-width: 926px) {
+	.header-text {
+		font-size: 50px;
+		padding-top: 110px;
+	}
+	.header {
+		height: 470px;
+	}
+	.navigation {
+		display: none;
+	}
+	.fa-bars {
+		display: block;
+	}
+	.ul1 {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		/*position: absolute;*/
+		/*right: 25px;*/
+		/*top: 85px;*/
+		width: 120px;
+		z-index: 10;
+		margin-top: 60px;
+	}
+	li {
+		text-align: center;
+	}
+	.nav {
+		margin-top: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.tours-section2,
+	.maps {
+		height: 540px;
+	}
+	.Rent-Car, 
+	.Taxi,
+	.ttc {
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.Aicar,
+	.Scroll,
+	.Qari,
+	.GRC,
+	.Yandex,
+	.Bolt,
+	.Maxim,
+	.Econom {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 738px) {
+	.des3 {
+		display: none;
+	}
+	.section {
+		height: 1170px;
+	}
+	.section2 {
+		max-height: 5850px;
+	}
+	.hotel-section2 {
+		max-height: 6250px;
+	}
+}
+@media (max-width: 690px) {
+	.h1-8 {
+		max-width: 235px;
+	}
+	.h3-11 {
+		max-width: 357px;
+	}
+	.footer,
+	.footer2 {
+		border-radius: 0;
+	}
+}
+@media (max-width: 579px) {
+	.header-text {
+		font-size: 33px;
+	}
+}
+@media (max-width: 414px) {
+	.tours-section2,
+	.maps {
+		height: 450px;
+	}
+}
+@media (max-width: 373px) {
+	.header-text {
+		font-size: 25px;
+	}
+}
+@media (max-width: 320px) {
+	.h3-2,
+	.h3-4,
+	.h3-5 {
+		margin: 0 auto;
+		margin-top: 8px;
+		max-width: 310px;
+		width: 100%;
+	}
+	.all {
+		margin-top: 0;
+	}
+	.footer,
+	.footer2 {
+		margin-top: 35px;
+	}
+	.section2 {
+		margin-top: 140px;
+	}
+	.tours-section2,
+	.maps {
+		height: 400px;
+	}
+}
